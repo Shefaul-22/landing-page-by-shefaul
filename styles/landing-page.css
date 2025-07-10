@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+/* Primary color */
+.primary-color {
+    color: #4e47ff;
+}
+.header {
+    background-image: url('../images/Hero-bg.png');
+    width: 1440px;
+    height: 700px;
+    margin-top: 0px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 51px 150px;
+}
+nav h3 {
+    font-size: 34px;
+}
+.primary-btn {
+    background-color: #4e47ff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 36px;
+    color: white;
+    font-size: 16px;
+}
+nav a {
+    text-decoration: none;
+    
+}
+.hero-container {
+    text-align: center;
+    margin-top: 158px;
+}
