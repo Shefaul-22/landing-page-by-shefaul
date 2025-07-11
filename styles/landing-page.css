@@ -1,6 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
+body {
+    background-color: #F5F8FF;
     
 }
 /* Primary color */
@@ -37,4 +36,170 @@ nav a {
 .hero-container {
     text-align: center;
     margin-top: 158px;
+}
+/* see it in section css */
+.see-it-in-action-container {
+    margin: 68px 184px 186px 151px;
+    background-color: #F5F8FF;
+}
+.see-it-in-action {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.see-it-in-action-text { 
+    padding: 62px 62px 205px 0px;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+}
+.action-text {
+    margin-bottom: 20px;
+}
+.action-image {
+    border-radius: 48px;
+}
+/* JOined Productive user css */
+.joined-user-container {
+    width: 1140px;
+    height: 306px;
+    margin: 116px 159px 116px 141px;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7FF;
+    border-radius: 24px;
+}
+.joined-user-container h4 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 38px;
+}
+.joined-user-stats {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 50px 142px 50px 142px; */
+    /* align-items: center; */
+}
+.joined-user-text {
+    margin-right: 158px;
+}
+.joined-1stp {
+    font-size: 80px;
+}
+.joined-2ndp {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Our user say css */
+.user-say-container {
+    margin: 137px 150px 137px 151px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F8FF;
+}
+.user-say-container h4 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 42px;
+}
+.our-user-say img {
+    margin-right: 4px;
+    margin-bottom: 24px;
+}
+.our-user-say h3 {
+    margin-bottom: 8px;
+}
+.our-user-say-p{
+    margin-bottom: 24px;
+}
+.reviewer {
+    display: flex;
+}
+.reviewer img {
+
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.reviewer p {
+    margin-bottom: 2px;
+}
+.reviewer-text1 {
+    font-style: body;
+}
+
+/* Ready to focus better section */
+.ready-to-focus-container {
+    margin: 137px 149px 92px 151px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+}
+.ready-to-focus {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ready-to-focus h4 {
+    padding-top: 71px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.ready-to-focus img {
+    width: 840px;
+    height: 365px;
+    border-radius: 48px;
+    margin: 20px 150px 71px 150px;
+}
+.ready-to-focus p {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+/* Let's get in touch css */
+.get-in-touch-container {
+    margin: 93px 150px 14px 150px;
+    /* justify-content: space-between;
+    align-items: center; */
+    background-color: #F5F8FF;
+}
+.get-in-touch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label ,input, textarea, button {
+    display: block;
+    
+}
+label {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+input {
+    width: 497px;
+    height: 70px;
+    margin-bottom: 19px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: none;
+    
+
+}
+textarea {
+    width: 497px;
+    margin-bottom: 19px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: none;
+}
+.get-in-touch h5 {
+    font-size: 70px;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 115px 200px 0px;
+}
+.get-button {
+    padding: 19px 201px 19px 201px;;
 }
