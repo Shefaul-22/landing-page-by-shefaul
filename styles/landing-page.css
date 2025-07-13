@@ -1,3 +1,38 @@
+
+
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.inter-medium {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+}
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.raleway-bold {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.raleway-regular {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #8987A1;
+}
+
 body {
     background-color: #F5F8FF;
     
@@ -16,9 +51,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 51px 150px;
+    padding: 30px 150px 0px 150px;
 }
 nav h3 {
+    margin-top: 0px;
+    padding-top: 24px;
+    font-weight: 900;
     font-size: 34px;
 }
 .primary-btn {
@@ -35,11 +73,19 @@ nav a {
 }
 .hero-container {
     text-align: center;
-    margin-top: 158px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 158px;
 }
+.hero-container h1 {
+    font-size: 65px;
+}
+    
 /* see it in section css */
 .see-it-in-action-container {
-    margin: 68px 184px 186px 151px;
+    margin: 68px 184px 0px 151px;
     background-color: #F5F8FF;
 }
 .see-it-in-action {
@@ -53,9 +99,16 @@ nav a {
     align-items: center;
     line-height: 1.5;
 }
-.action-text {
-    margin-bottom: 20px;
+.action-text-heading {
+
+    margin: 0px;
+    font-size: 40px;
 }
+.action-text-p {
+    margin-top: 0px;
+    font-size: 24px;
+}
+    
 .action-image {
     border-radius: 48px;
 }
@@ -63,32 +116,37 @@ nav a {
 .joined-user-container {
     width: 1140px;
     height: 306px;
-    margin: 116px 159px 116px 141px;
+    margin: 0px 159px 116px 141px;
     justify-content: center;
     align-items: center;
     background-color: #E5E7FF;
     border-radius: 24px;
 }
-.joined-user-container h4 {
+
+.joined-user-container h3 {
     text-align: center;
+    margin: 0px;
     padding-top: 50px;
+    padding-bottom: 0px;
     font-size: 38px;
 }
 .joined-user-stats {
     display: flex;
     justify-content: space-between;
-    /* padding: 50px 142px 50px 142px; */
+    margin: 0;
+    padding: 40px 142px 50px 142px;
     /* align-items: center; */
 }
-.joined-user-text {
-    margin-right: 158px;
-}
+
 .joined-1stp {
     font-size: 80px;
+    margin: 0px;
 }
 .joined-2ndp {
     font-size: 20px;
     text-align: center;
+    margin-top: 0px;
+    color: #8987A1;
 }
 
 /* Our user say css */
@@ -98,35 +156,73 @@ nav a {
     align-items: center;
     background-color: #F5F8FF;
 }
-.user-say-container h4 {
+.user-say-container h2 {
     text-align: center;
     margin-bottom: 50px;
     font-size: 42px;
 }
+.user-say-main {
+    display: flex;
+    gap: 20px;
+}
+.our-user-say {
+    width: 360px;
+    height: 210px;
+    padding: 24px;
+    background-color: #FAFCFF;
+    border-radius: 14px;
+}
 .our-user-say img {
-    margin-right: 4px;
-    margin-bottom: 24px;
+    margin-bottom: 0px;
+    /* margin-right: 4px; */
+    padding-bottom: 24px;
 }
 .our-user-say h3 {
-    margin-bottom: 8px;
+    font-size: 24px;
+    padding-bottom: 16px;
+    margin: 0px;
+    font-weight: 600;
 }
 .our-user-say-p{
-    margin-bottom: 24px;
+    font-size: 16px;
+    margin: 0px;
+    font-weight: 400;
+    color: #1E1E1E;
 }
+    
 .reviewer {
+    margin: 0px;
     display: flex;
+    padding-bottom: 24px;
+    margin-top: 24px;
+    gap: 16px;
+}
+.reviewer-text{
+   margin: 0px;
+
 }
 .reviewer img {
 
     border-radius: 50%;
-    margin-right: 16px;
-}
-.reviewer p {
-    margin-bottom: 2px;
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid #ffffff;
+    object-fit: cover;
 }
 .reviewer-text1 {
-    font-style: body;
+    padding-bottom: 6px;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #757575;
 }
+.reviewer-text2 {
+    padding-bottom: 4px;
+    margin: 0px;
+    font-size: 16px;
+    color: #B3B3B3;
+}
+
 
 /* Ready to focus better section */
 .ready-to-focus-container {
@@ -135,13 +231,16 @@ nav a {
     border-radius: 14px;
 }
 .ready-to-focus {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.ready-to-focus h4 {
+.ready-to-focus h3 {
+    margin: 0px;
     padding-top: 71px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     font-size: 50px;
 }
 
@@ -152,15 +251,16 @@ nav a {
     margin: 20px 150px 71px 150px;
 }
 .ready-to-focus p {
-    margin-bottom: 20px;
+    margin: 0px;
+    padding-bottom: 20px;
     font-size: 20px;
+    color: #8987A1;
 }
 
 /* Let's get in touch css */
 .get-in-touch-container {
     margin: 93px 150px 14px 150px;
-    /* justify-content: space-between;
-    align-items: center; */
+    
     background-color: #F5F8FF;
 }
 .get-in-touch {
@@ -181,7 +281,7 @@ input {
     width: 497px;
     height: 70px;
     margin-bottom: 19px;
-    padding: 12px 20px;
+    padding: 8px 20px;
     border-radius: 10px;
     border: none;
     
@@ -194,12 +294,54 @@ textarea {
     border-radius: 10px;
     border: none;
 }
-.get-in-touch h5 {
-    font-size: 70px;
+.get-in-touch h4 {
+    font-size: 80px;
     justify-content: center;
     align-items: center;
     padding: 200px 115px 200px 0px;
 }
 .get-button {
     padding: 19px 201px 19px 201px;;
+}
+
+/* Footer section css */
+.footer-container {
+    background-color: #FFFFFF;
+    margin-top: 14px;
+    width: 1440px;
+    height: 428px;
+}
+.footer-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    padding: 104px 454px 103px 454px;
+}
+.footer-all h3 {
+    font-size: 34px;
+    margin: 0px;
+    padding-bottom: 8px;
+    font-weight: 900;
+}
+.footer-all p {
+    font-size: 16px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 8px;
+    padding-bottom: 20px;
+    color: #8987A1;
+
+}
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.footer-links a {
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 16px;
 }
